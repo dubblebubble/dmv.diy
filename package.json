@@ -8,7 +8,8 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "prisma-generate": "prisma generate",
-    "clear-cache": "rm -rf .nuxt"
+    "clear-cache": "rm -rf .nuxt",
+    "clear-cache:win": "powershell -Command \"if (Test-Path .nuxt) { Remove-Item -Recurse -Force .nuxt }\""
   },
   "dependencies": {
     "@fullcalendar/core": "^6.1.10",
