@@ -35,7 +35,7 @@ watch(theme, () => {
     });
   });
 });
-const svgGrave = ref('');
+const pngLogo = ref('');
 
 const getWindowHeight = () => {
   if (process.client) return window.innerHeight;
@@ -301,15 +301,15 @@ onMounted(() => {
   moveListViewScrollbarToTodayAndColor();
   // Expose the calendar instance to the window object for debugging
   if (calendarRef.value) window.myCalendar = calendarRef.value.getApi();
-  //For the svgGrave rendering
-  async function fetchGrave() {
-    const svgResponse = await fetch('/css/gravestone.svg');
-    svgGrave.value = await svgResponse.text();
+  // for the logo
+  async function fetchLogo() {
+    pngLogo.value = '/css/dmvdiylogo.png'
   }
-  fetchGrave();
+  fetchLogo();
 });
 onUpdated(() => {
 });
+
 onUnmounted(() => {
   if (process.client) window.removeEventListener('resize', updateWeekNumbers)
 });
@@ -326,7 +326,7 @@ function addEventSources(newEventSources: EventNormalSource[] | EventGoogleCalen
     eventSource.events.forEach((event) => {
       /* REMOVED TEMPORARILY, replaced with the hack below: Remove events that last longer than 3 days.
       Note: This also tends to cut out Eventbrite events that have 'Multiple Dates' over a range of 3 days.
-      Using the official Eventbrite API would allow us to avoid this issue, but would potentially run into 
+      Using the official Eventbrite API would allow us to avoid this issue, but would potentially run into
       rate limits pretty quickly during peak hours. */
       const lengthInDays = Math.round((event.end.getTime() - event.start.getTime()) / (1000 * 3600 * 24));
 
@@ -414,15 +414,10 @@ const transformEventSourcesResponse = (eventSources: Ref<Record<string, any>>) =
     <table style="width:100%;">
       <tbody>
         <tr>
-          <td class="blurb-image"> <div v-html="svgGrave"></div> </td>
+          <td class="blurb-image"> <img :src="pngLogo" alt="DMV DIY Logo" style="width: 100%; height: 100%; object-fit: contain;"> </td>
           <td>
             <div class="blurb-text">
-              A communal board for DIY events all around RVA; queer, radical, and STINKY!!!
-            </div>
-            <div class="blurb-sub">
-              Stop scrolling insta to find the move!<br>
-              🇵🇸 <a href="https://linktr.ee/sjpvcu">Support your local SJP</a> 🇵🇸
-            </div>
+DC Metro Area Community Calendar            </div>
           </td>
         </tr>
       </tbody>
@@ -430,38 +425,29 @@ const transformEventSourcesResponse = (eventSources: Ref<Record<string, any>>) =
     <div style="text-align: center;" v-if="beforeMOTDDate">
       <div class="motd">
         🇵🇸 This Saturday ShutItDown4Palestine is hosting a national day of action to say
-        NO VOTES FOR GENOCIDE. Want to join in RVA? Check out the upcoming rally 
-        <a style="color: var(--text-white);" href="https://www.instagram.com/pslvirginia/p/DBobeMEuC8D/">here!</a> 🇵🇸 
+        NO VOTES FOR GENOCIDE. Want to join in RVA? Check out the upcoming rally
+        <a style="color: var(--text-white);" href="https://www.instagram.com/pslvirginia/p/DBobeMEuC8D/">here!</a> 🇵🇸
         <br > 🗓️ Nov 2 | 🕑 2pm | 📍 Monroe Park
       </div>
     </div>
     <FullCalendar ref="calendarRef" :options='calendarOptions' />
     <div style="display: flex; align-items: center; flex-direction: row;">
       <div class="desc" style="padding-bottom: 0;">
-        <p>rva.rip was built with the personal hope that no person in richmond should be without community. The site will
-          always be free, without frills, and remain a public utility. The events here are drawn from various 
-          <a href="https://github.com/natviii/rva.rip/blob/main/assets/event_sources.json">organizer listings</a> that
-          contributors (thank you!) have provided. Building community is the focus of this project. If you'd like to become
-          a contributor of events, check out our contributing guide <a href="/contributing">here</a>! The events presented here are in a
-          constant state of community-based vetting; don't hesitate to provide feedback! For suggestions and questions
-          email <a href="mailto:host@rva.rip">host@rva.rip</a> &lt;3</p>
+        <p>This site is meant to be a free hub for community events and resources in the DMV area and is
+         currently a work in progress. If you have an event you would like to include, or feedback on this
+          site, reach out to us at <a href="mailto:host@dmv.diy.fyi">host@dmv.diy.fyi</a></p>
+        <p>At this moment we would like to focus on local DIY shows and community events that provide a safe space for queer community.</p>
+        <p>The source code for this site was &apos;forked&apos; from <a href="https://rva.rip">rva.rip</a> and its sister sites
+        <a href="https://anarchism.nyc">anarchism.nyc</a>, <a href="https://anarchism.boston">anarchism.boston</a>, and <a href="https://bay.lgbt">bay.lgbt</a>.</p>
         <p>Before making plans, consider checking with venue staff or event organizers directly. This site is not
           affiliated with any events listed.</p>
-        <p>Still can't figure out what to do? 
+        <p>Links to other resources
           <ul style="line-height: 1.5em">
-            <li>Bored? Roll up to <a href="https://goo.gl/maps/7hE5ARFYcE7KTgun7">scuff</a> and say hi to the punks</li>
-            <li>Looking for music? Check out <a href="https://www.restlessrva.com/">restless</a> for local concerts happening. </li>
-            <li>Like sports? Sign up for <a href="https://stonewallrichmond.leagueapps.com/leagues/">stonewall sports</a>!!! Hot athletic gays!!!!!</li>
-            <li>Don't wanna go outside? Play <a href="https://play.half.earth//">half earth socialism</a>!!!</li>
-            <li>Wanna find more groups? Check out our <a href="/list">list of organizations and groups</a> in RVA</li>
+            <li><a href="https://www.rhizomedc.org/updates">Rhizome volunteer sign-ups</a></li>
+            <li><a href="https://www.tumblr.com/baltshowplace">Baltimore Show and Booking Resource (BaltShowPlace)</a></li>
+            <li><a href="https://dmvmutualaid.carrd.co/">DMV Mutual Aid</a></li>
+            <li><a href="https://dcurbangardenernetwork.wordpress.com/">DC Urban Gardener (DUG) Network</a></li>
           </ul></p>
-        <p>Not in Richmond??? Check out our sibling sites <a href="https://anarchism.nyc/">anarchism.nyc</a>, 
-        <a href="https://bay.lgbt/">bay.lgbt</a>, and <a href="https://anarchism.boston/">anarchism.boston</a>.
-        This site wouldn't exist without them, and we're all run by trans folks.</p>
-        <p>Want your event listed here? Start making a <a href="/contributing">public google calendar</a> for your events. 
-          Once published, request inclusion of your event feed by sending your Google Calendar ID via a 
-          <a href="https://github.com/natviii/rva.rip/issues">new GitHub issue</a> or by emailing me at host@rva.rip! 
-          You may also provide feedback, fixes, or improvements through either means</p>
       </div>
     </div>
     <Footer />

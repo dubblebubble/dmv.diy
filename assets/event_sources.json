@@ -63,6 +63,26 @@
     },
     "googleCalendar": [
         {
+            "name": "dmv.diy Manually Added Events",
+            "googleCalendarId": "dmv.diy.fyi@gmail.com",
+            "filters": [
+                [["market","commercial"], "Market", ["title","description"]],
+                ["palestine", "🇵🇸", ["title","description"]],
+                ["biking", "🚲", ["title","description"]],
+                ["sobriety", "🚭", "title"],
+                ["free stuff", "Free Food", "title"],
+                ["community","commercial"],
+                ["music", "sundown", "title"],
+                ["music", "Dogwood Dell", "title"],
+                [["ecology","food","free stuff"], "Fonticello FF", "title"],
+                [["art"], "First Fridays", "title"],
+                [["lgbtq"], "🏳️‍🌈", "title"],
+                [["transgender"], "🏳️‍⚧️", "title"],
+                ["unknownType", "This is a tag inserted for code purposes, this tag represents all tags which won't be categorized", "title"]
+            ]
+        },
+
+        {
             "name": "rva.rip Manually Added Events",
             "googleCalendarId": "1c16b938a56fea0342068f59730a90d90bec79d49d44c6fcc0b46915705b8cea@group.calendar.google.com",
             "filters": [
@@ -248,7 +268,7 @@
                 [["theater"], "comedy event", "title"],
                 [["books"], "book", "title"],
                 ["commercial","community"]
-                
+
             ]
         },
         {
