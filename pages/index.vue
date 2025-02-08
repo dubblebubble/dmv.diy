@@ -10,7 +10,7 @@ useHead({
       content: '',
     },
   ],
-  link: [{ rel: 'icon', type: 'image/png', href: '/css/dmvdiylogo32.png' }],
+  link: [{ rel: 'icon', type: 'image/png', href: '/css/DMV_DIY,Icon.png' }],
   script: [
     {
       src: 'https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=default%2Ces2015%2Ces6%2Ces5',
