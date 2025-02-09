@@ -423,12 +423,6 @@ DC Metro Area Community Calendar            </div>
       </tbody>
     </table>
     <div style="text-align: center;" v-if="beforeMOTDDate">
-      <div class="motd">
-        🇵🇸 This Saturday ShutItDown4Palestine is hosting a national day of action to say
-        NO VOTES FOR GENOCIDE. Want to join in RVA? Check out the upcoming rally
-        <a style="color: var(--text-white);" href="https://www.instagram.com/pslvirginia/p/DBobeMEuC8D/">here!</a> 🇵🇸
-        <br > 🗓️ Nov 2 | 🕑 2pm | 📍 Monroe Park
-      </div>
     </div>
     <FullCalendar ref="calendarRef" :options='calendarOptions' />
     <div style="display: flex; align-items: center; flex-direction: row;">
