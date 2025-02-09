@@ -435,7 +435,7 @@ DC Metro Area Community Calendar            </div>
       <div class="desc" style="padding-bottom: 0;">
         <p>This site is meant to be a free hub for community events and resources in the DMV area and is
          currently a work in progress. If you have an event you would like to include, or feedback on this
-          site, reach out to us at <a href="mailto:host@dmv.diy.fyi">host@dmv.diy.fyi</a></p>
+          site, reach out to us at <a href="mailto:dmv.diy.fyi@gmail.com">dmv.diy.fyi@gmail.com</a></p>
         <p>At this moment we would like to focus on local DIY shows and community events that provide a safe space for queer community.</p>
         <p>The source code for this site was &apos;forked&apos; from <a href="https://rva.rip">rva.rip</a> and its sister sites
         <a href="https://anarchism.nyc">anarchism.nyc</a>, <a href="https://anarchism.boston">anarchism.boston</a>, and <a href="https://bay.lgbt">bay.lgbt</a>.</p>
