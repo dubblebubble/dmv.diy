@@ -430,7 +430,7 @@ DC Metro Area Community Calendar            </div>
         <p>This site is meant to be a free hub for community events and resources in the DMV area and is
          currently a work in progress. If you have an event you would like to include, or feedback on this
           site, reach out to us at <a href="mailto:dmv.diy.fyi@gmail.com">dmv.diy.fyi@gmail.com</a></p>
-        <p>At this moment we would like to focus on local DIY shows and community events that provide a safe space for queer community.</p>
+        <p>At this moment we would like to focus on local DIY shows and events that provide a safe space for queer community.</p>
         <p>The source code for this site was &apos;forked&apos; from <a href="https://rva.rip">rva.rip</a> and its sister sites
         <a href="https://anarchism.nyc">anarchism.nyc</a>, <a href="https://anarchism.boston">anarchism.boston</a>, and <a href="https://bay.lgbt">bay.lgbt</a>.</p>
         <p>Before making plans, consider checking with venue staff or event organizers directly. This site is not
@@ -441,6 +441,7 @@ DC Metro Area Community Calendar            </div>
             <li><a href="https://www.tumblr.com/baltshowplace">Baltimore Show and Booking Resource (BaltShowPlace)</a></li>
             <li><a href="https://dmvmutualaid.carrd.co/">DMV Mutual Aid</a></li>
             <li><a href="https://dcurbangardenernetwork.wordpress.com/">DC Urban Gardener (DUG) Network</a></li>
+            <li><a href="https://drive.google.com/drive/u/0/folders/1FZudPOQZAnYH1iQXNBkqF57GR0lcQMro?fbclid=PAAaZeYBkvvm9htFplB2hIY7O0lBfbDBuNxkc4tnSO_f1c7nRFHUQfHP82suc_aem_AfVwq4j54yxAD6L4h_Mo5bWsFtZ2xicf8eNQ9DZkxGgP7kmsUh0bnT8oufZX2gqjw08">Free Resource Library on Palestine</a></li>
           </ul></p>
       </div>
     </div>
