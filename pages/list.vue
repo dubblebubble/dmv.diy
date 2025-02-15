@@ -3,61 +3,28 @@
 
 <template>
     <div class="desc" style="line-height: 2;">
-        <h1>Queer-Friendly Community Organizations</h1>
-        <h2>Events Aggregators</h2>
+        <h1>Queer Friendly DIY Resources and Organizations</h1>
+        <h2>Mutual Aid and Volunteering</h2>
         <ul>
-            <li><a href="https://linktr.ee/commonalityrva" target="_blank">Commonality RVA</a></li>
+            <li><a href="https://www.rhizomedc.org/updates" target="_blank">Rhizome Volunteer Sign-Ups</a></li>
+            <li><a href="https://dmvmutualaid.carrd.co/" target="_blank">DMV Mutual Aid</a></li>
+            <li><a href="https://www.instagram.com/theythemcollective/?hl=en" target="_blank">They Them Collective</a></li>
+            <li><a href="https://linktr.ee/FoodNotBombsDC?utm_source=linktree_profile_share&ltsid=4b9c1a8a-e635-42d2-9c1c-55de1d3a9324" target="_blank">Food Not Bombs DC</a></li> 
+            <li><a href="https://linktr.ee/remorahousedc?utm_source=linktree_profile_share&ltsid=20b29308-3463-4338-afe6-1b718c86f1e8" target="_blank">Remora House for the Unhoused and Recently Housed</a></li>
+            <li><a href="https://www.instagram.com/thepalmcollectivedc/" target="_blank">The Palm Collective</a></li>
+            <li><a href="https://linktr.ee/FeedThePeopleMutualAid?utm_source=linktree_profile_share&ltsid=bd78bf89-c789-4bc6-8b32-1b079cd3f300" target="_blank">Feed the People DC</a></li>
+        </ul>
+        <h2>Event Aggregators</h2>
+        <ul>
+            <li><a href="https://www.tumblr.com/baltshowplace" target="_blank">Baltimore Show and Booking Resource (BaltShowPlace)</a></li>
         </ul>
         <h2>Community Building</h2>
         <ul>
-            <li><a href="https://linktr.ee/rvaqueerbookclub" target="_blank">RVA Queer Book Club</a></li>
-            <li><a href="https://linktr.ee/dhrva" target="_blank">Dyke Hang RVA</a></li>
-            <li><a href="https://www.instagram.com/fbc.rva" target="_blank">Feminist Bird Club (birdwatching)</a></li>
-            <li><a href="https://linktr.ee/slamrva" target="_blank">Slam Richmond (poetry)</a></li>
-            <li><a href="https://www.instagram.com/bigqueercraftcircle" target="_blank">Big Queer Craft Circle (on hiatus)</a>
-            </li>
-            <li><a href="https://www.instagram.com/flan.rva" target="_blank">FusterLAN (computer games)</a></li>
-            <li><a href="https://linktr.ee/rvaqueersoccer" target="_blank">RVA Queer Soccer</a></li>
-            <li><a href="https://www.instagram.com/rvaqueerpickleball" target="_blank">RVA Queer Pickleball</a></li>
-            <li><a href="https://www.instagram.com/rvasquaredance" target="_blank">Richmond Square Dance (not queer, but
-                    queer-friendly)</a></li>
+            <li><a href="https://dcurbangardenernetwork.wordpress.com/" target="_blank">DC Urban Gardener (DUG) Network</a></li>
         </ul>
-        <h2>Labor Rights</h2>
+        <h2>Libraries and Online Resources</h2>
         <ul>
-            <li><a href="https://linktr.ee/workers.roar" target="_blank">Richmond Organizing and Agitating Restaurants</a></li>
-        </ul>
-        <h2>Mutual Aid</h2>
-        <ul>
-            <li><a href="https://rvabailfund.org" target="_blank">Richmond Community Bail Fund</a></li>
-            <li><a href="https://linktr.ee/rivercityharmredux" target="_blank">River City Harm Redux</a></li>
-            <li><a href="https://linktr.ee/richmondFNB" target="_blank">Richmond Food Not Bombs</a></li>
-            <li><a href="https://www.rvacommunityfridges.com" target="_blank">RVA Community Fridges</a></li>
-            <li><a href="https://www.madrva.org" target="_blank">Mutual Aid Distribution Richmond</a></li>
-        </ul>
-        <h2>Climate Justice</h2>
-        <ul>
-            <li><a href="https://linktr.ee/SunriseMvmtRVA" target="_blank">Sunrise Movement RVA</a></li>
-            <li><a href="https://www.instagram.com/richmond_wds" target="_blank">Richmond Weelaunee Defense Society</a></li>
-        </ul>
-        <h2>Anti-War</h2>
-        <ul>
-            <li><a href="https://linktr.ee/amp_rva" target="_blank">American Muslims for Palestine RVA</a></li>
-            <li><a href="https://www.instagram.com/sjpvcu" target="_blank">Students for Justice in Palestine @ VCU</a></li>
-            <li><a href="https://linktr.ee/richmondFNB" target="_blank">Richmond Food Not Bombs</a></li>
-            <li><a href="https://www.instagram.com/pslvirginia" target="_blank">Party for Socialism and Liberation in Virginia</a></li>
-        </ul>
-        <h2>Anti-Oppression</h2>
-        <ul>
-            <li><a href="https://msha.ke/songrva" target="_blank">Southerners on New Ground RVA</a></li>
-            <li><a href="https://www.instagram.com/richmond_wds" target="_blank">Richmond Weelaunee Defense Society</a></li>
-            <li><a href="https://www.rrfp.net" target="_blank">Richmond Reproductive Freedom Project</a></li>
-        </ul>
-        <h2>Events and organizations with reported transphobic elements</h2>
-        <ul>
-            <li>Roll Call RVA (Transphobic founder)</li>
-            <li>RVA Smash/Smash the Byrd (Multiple reports of unsafe conditions for trans people. Transphobic regular attendee.)
-            </li>
-            <li>Glover Park pickup soccer (One report of unsafe conditions for trans people)</li>
+            <li><a href="https://drive.google.com/drive/u/0/folders/1FZudPOQZAnYH1iQXNBkqF57GR0lcQMro?fbclid=PAAaZeYBkvvm9htFplB2hIY7O0lBfbDBuNxkc4tnSO_f1c7nRFHUQfHP82suc_aem_AfVwq4j54yxAD6L4h_Mo5bWsFtZ2xicf8eNQ9DZkxGgP7kmsUh0bnT8oufZX2gqjw08" target="_blank">Free Resource Library on Palestine</a></li>
         </ul>
     </div>
     <Footer />
