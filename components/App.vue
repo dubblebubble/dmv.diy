@@ -430,11 +430,13 @@ DC Metro Area Community Calendar            </div>
         <p>This site is meant to be a free hub for community events and resources in the DMV area and is
          currently a work in progress. If you have an event you would like to include, or feedback on this
           site, reach out to us at <a href="mailto:dmv.diy.fyi@gmail.com">dmv.diy.fyi@gmail.com</a></p>
-        <p>At this moment we would like to focus on local DIY shows and events that provide a safe space for queer community.</p>
+        <p>At this moment we would like to focus on local DIY shows and events that provide a safe space for queer community. For best results please include as much of the following information as possible: Event title, date, location, time, entry fee or a flyer/link to the event.
+</p>
         <p>The source code for this site was &apos;forked&apos; from <a href="https://rva.rip">rva.rip</a> and its sister sites
         <a href="https://anarchism.nyc">anarchism.nyc</a>, <a href="https://anarchism.boston">anarchism.boston</a>, and <a href="https://bay.lgbt">bay.lgbt</a>.</p>
         <p>Before making plans, consider checking with venue staff or event organizers directly. This site is not
           affiliated with any events listed.</p>
+        <p>We are currently working on a resource page for local mutual aid groups that provide support and resources to DMV residents. Doing so in a manner that does not compromise the safety/privacy of the people doing this work is a priority to us. If you represent one of these groups that would like to be included in this list, we ask that you reach out to us directly.</p>
         <p>Links to other resources
           <ul style="line-height: 1.5em">
             <li><a href="https://www.rhizomedc.org/updates">Rhizome volunteer sign-ups</a></li>
@@ -442,6 +444,7 @@ DC Metro Area Community Calendar            </div>
             <li><a href="https://dmvmutualaid.carrd.co/">DMV Mutual Aid</a></li>
             <li><a href="https://dcurbangardenernetwork.wordpress.com/">DC Urban Gardener (DUG) Network</a></li>
             <li><a href="https://drive.google.com/drive/u/0/folders/1FZudPOQZAnYH1iQXNBkqF57GR0lcQMro?fbclid=PAAaZeYBkvvm9htFplB2hIY7O0lBfbDBuNxkc4tnSO_f1c7nRFHUQfHP82suc_aem_AfVwq4j54yxAD6L4h_Mo5bWsFtZ2xicf8eNQ9DZkxGgP7kmsUh0bnT8oufZX2gqjw08">Free Resource Library on Palestine</a></li>
+            <li><a href="https://linktr.ee/dctransevents?fbclid=PAZXh0bgNhZW0CMTEAAaZXuVuariZKJa-utN5USQXT7HlfWG9P8IIA-YFtfpS6zhITp1WQYvt91Z8_aem_6tzkEwc9-q9SjyR3guLP-g">DC Trans Events (they have their own calendar!)</a></li>
           </ul></p>
       </div>
     </div>
