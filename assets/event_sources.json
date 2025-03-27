@@ -77,7 +77,7 @@
                 [["ecology","food","free stuff"], "Fonticello FF", "title"],
                 [["art"], "First Fridays", "title"],
                 [["lgbtq"], "🏳️‍🌈", "title"],
-                [["transgender"], "🏳️‍⚧️", "title"],
+                [["transgender","Trans"], "🏳️‍⚧️", "title"],
                 ["unknownType", "This is a tag inserted for code purposes, this tag represents all tags which won't be categorized", "title"]
             ]
         }
